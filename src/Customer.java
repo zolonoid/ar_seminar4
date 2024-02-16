@@ -1,7 +1,7 @@
 public class Customer {
     private int id;
     private Ticket[] tickets;
-    private CashProvider cashProvider;
+    private ICashProvider cashProvider;
 
     public boolean buyTicket(Ticket ticket) {
         return true;
